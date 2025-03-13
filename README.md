@@ -18,6 +18,8 @@
 - **Controllers**: Contain the business logic for managing emails.
 - **Routes**: Handle incoming HTTP requests and call the necessary controller functions for business logic execution.
 - **TypeORM**: Handles the connection and interaction with the PostgreSQL database.
+- Used **class-validator** to validate the data coming in with the request body. This is crucial to ensure that all data conforms to the expected structure and format before it's processed. **src/entities/emails/emails.dto.ts**
+
 ## Postman Request Example
 
 To test the POST endpoint to create an email, use the following configuration in Postman:
