@@ -1,6 +1,7 @@
 node_modules/
 mocha
 mocha-api
+migrations/
 bin/
 out/
 coverage/
