@@ -1,5 +1,5 @@
 {
-    "name": "fastify-typeorm-postgres-api",
+    "name": "email-api",
     "version": "1.0.0",
     "type": "commonjs",
     "description": "",
